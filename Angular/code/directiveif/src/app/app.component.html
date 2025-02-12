@@ -1,0 +1,19 @@
+<!-- <h1>ng if demo</h1>
+<button (click)="fun()">watch</button>
+<div *ngIf="isdance">
+  <img src="https://media2.giphy.com/media/gkR7q9XjU6dQJO19Bk/giphy.gif" alt="ogggy-gif">
+</div>
+
+<div *ngIf="isgood else bujji">
+  <h1>He is good</h1>
+</div>
+<ng-template #bujji>
+  <h1>he is bad</h1>
+</ng-template> -->
+
+<div id="modal" *ngIf="isModal">
+  <button id="close" (click)="stopModal()">❎</button>
+    <h1>hello everyone</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat nam, voluptate doloribus non sint exercitationem magnam architecto debitis. Quos, ea cum deleniti sequi temporibus ex quas ratione fuga numquam.</p>
+</div>
+<button (click)="showModal()">click me</button>

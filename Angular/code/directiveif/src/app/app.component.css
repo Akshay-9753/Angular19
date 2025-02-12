@@ -1,0 +1,26 @@
+#modal{
+    position: absolute;
+    top:  40%;
+    left: 30%;
+    z-index: 1000;
+    max-width: 40vw;
+    max-height: 40vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    animation: slidedown 1s ease;
+
+}
+#close{
+    float: right;
+
+}
+@keyframes slidedown {
+    0%{
+        top: -40%;
+    }
+    100%{
+        top: 40%;
+    }
+}
