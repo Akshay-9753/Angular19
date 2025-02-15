@@ -1,3 +1,17 @@
-<div>
-  
+<header>
+  <div class="logo">
+   My <span>Cart</span>
+  </div>
+</header>
+<div class="products">
+  <div class="product" *ngFor="let i of product">
+   <app-product 
+      title="{{i.title}}" 
+      imageUrl="{{i.image}}" 
+      desc="{{i.description}}" 
+      price="{{i.price}}">
+    </app-product>
+  </div>
 </div>
+
+
