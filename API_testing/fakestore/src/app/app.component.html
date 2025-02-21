@@ -1,0 +1,11 @@
+<h1>Fake Store</h1>
+<div class="products">
+  <div class="product" *ngFor="let i of products">
+    <img [src]="i.image" alt="i.title" />
+    <h2>{{ i.title }}</h2>
+    <p>{{i.description}}</p>
+    <p>category: {{i.category}}</p>
+    <p>Price: ₹{{i.price}}</p>
+    <button>add to cart</button>
+  </div>
+</div>

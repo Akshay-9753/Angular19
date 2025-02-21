@@ -1,0 +1,3 @@
+animista = for animation in css
+let date=new Date() = for giving date in JS
+ng g pipe pipe-name = for crating pipe
