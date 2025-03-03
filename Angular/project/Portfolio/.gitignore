@@ -1,10 +1,8 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-# Ignore Angular environments folder
-src/environments/environment.ts
-src/environments/environment.prod.ts
 
 # Compiled output
+src/environments/environment.ts
 /dist
 /tmp
 /out-tsc
