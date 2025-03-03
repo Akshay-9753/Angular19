@@ -1,0 +1,68 @@
+/* General Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    background-color: white; /* Dark theme background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(138, 43, 226, 0.6);
+    max-width: 400px; /* Restricts width for better design */
+    margin: auto; /* Centers the form */
+}
+#form{
+    text-align: center;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #555;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+input:focus {
+    border-color: blueviolet;
+    box-shadow: 0 0 8px blueviolet;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(138, 58, 226);
+    box-shadow: 0 0 10px blueviolet;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+    
+    input {
+        width: 100%;
+    }
+}
